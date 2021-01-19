@@ -261,15 +261,50 @@
 
 .testi-content {
 	display: flex;
+	flex-direction: column;
 	flex-wrap: wrap;
-	width: 497px;
+	justify-content: center;
+}
+
+.testi-content-box {
+	display: flex;
+	color: #222224;
+	font-family: Lato;
+	font-size: 16px;
+	font-style: italic;
+}
+
+.testi-text {
+	display: flex;
+	width: 386px;
+	padding-left: 30px;
+}
+
+.testi-foto {
+	display: flex;
+	border-radius: 50%;
+}
+
+.testi-podpis {
+	padding-left: 150px;
+	color: #222224;
 }
 
 .testi-subscribe {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.testi-subscribe h1 {
+	color: #222224;
 	font-family: Lato;
-	font-size: 14px;
 	font-weight: 400;
-	text-align: center;
+}
+
+.testi-subscribe p {
+	color: #222224;
+	font-family: Lato;
 }
 
 .footer {
@@ -351,7 +386,35 @@
 
 .footer2 {
 	display: flex;
-	justify-content: space-around;
 	height: 79px;
 	background-color: #e6e6e6;
+	align-items: center;
+	justify-content: space-between;
+	padding-left: 160px;
+	padding-right: 160px;
+	margin-top: 122px;
+}
+
+.copyright p {
+	color: #7a7a7a;
+	font-family: Lato;
+	font-size: 16px;
+	font-weight: 400;
+}
+
+.social {
+	display: flex;
+	height: 33px;
+}
+
+.social a {
+	display: flex;
+	height: 32px;
+	width: 32px;
+	background-color: #ffffff;
+	margin-left: 8px;
+	justify-content: center;
+	align-items: center;
+	text-decoration: none;
+	color: #b2b2b2;
 }
