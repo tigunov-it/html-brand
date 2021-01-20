@@ -10,19 +10,52 @@
 
 .container {
 	max-width: 1616px;
-	margin: auto;
+	margin: 0 auto;
 }
 
 .header {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-	height: 100 px;
 }
 
 .header a {
 	text-decoration: none;
 	color: #222222;
+}
+
+.header-left {
+	display: flex;
+	align-items: center;
+}
+
+.search-block {
+	display: flex;
+	height: 38px;
+}
+
+.search-block input {
+	width: 317px;
+	margin-left: 60px;
+}
+
+.search-button {
+	height: 38px;
+	width: 38px;
+	border-left: 1px solid #e6e6e6;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 14px;
+	margin-left: -40px;
+}
+
+.header-right {
+	display: flex;
+}
+
+.header-right a {
+	margin-right: 60px;
 }
 
 .menu {
@@ -158,9 +191,44 @@
 .galery {
 	display: flex;
 	flex-wrap: wrap;
-	list-style-type: none;
 	justify-content: space-around;
 	width: 1139px;
+}
+
+.item {
+	position: relative;
+	height: 364px;
+	width: 263px;
+}
+
+.item:hover {
+	box-shadow: 0 5px 8px rgba(0, 0, 0, 0.16);
+	background-color: #ffffff;
+}
+
+.product-link {
+	display: block;
+	text-decoration: none;
+	height: 364px;
+	width: 263px;
+}
+
+.img-box {
+	display: flex;
+}
+
+.img-box:hover {
+	filter: brightness(50%);
+}
+
+.item:hover .add-to-cart {
+	display: flex;
+	color: green;
+}
+
+
+.img-box img {
+	width: 100%;
 }
 
 .item-name {
@@ -172,8 +240,8 @@
 	letter-spacing: normal;
 	line-height: normal;
 	text-transform: uppercase;
-	margin-left: 13px;
-	margin-top: 10px;
+	padding-left: 13px;
+	padding-top: 10px;
 }
 
 .price {
@@ -184,8 +252,41 @@
 	font-style: normal;
 	letter-spacing: normal;
 	line-height: normal;
-	margin-left: 13px;
-	margin-top: 7px;
+	padding-left: 13px;
+	padding-top: 7px;
+}
+
+.add-to-cart {
+	display: block;
+	position: absolute;
+	top: 98px;
+	display: none;
+	width: 100%;
+	justify-content: center;
+}
+
+.add-to-cart a {
+		color: #ffffff;
+		font-family: Lato;
+		font-size: 13px;
+		padding-left: 5px;
+		text-decoration: none;
+}
+
+.add-to-cart p {
+	color: #ffffff;
+	font-family: Lato;
+	font-size: 13px;
+	padding-left: 5px;
+}
+
+.add-box {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 39px;
+	width: 123px;
+	border: 1px solid #fff;
 }
 
 .button-browse {
@@ -343,7 +444,6 @@
 
 .logo {
 	display: flex;
-	width: 664px;
 	align-items: center;
 }
 
