@@ -17,6 +17,9 @@
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.17);
+	border: 1px solid #ececec;
+	height: 100px;
 }
 
 .header a {
@@ -84,14 +87,14 @@
 .header-menu {
 	display: block;
 	height: 51px;
-	border-top: 1px solid black;
+
 }
 
 .menu {
 	height: 51px;
 	display: flex;
 	justify-content: center;
-	margin: 15px;
+	align-items: center;
 	
 }
 
@@ -434,6 +437,14 @@
 	display: flex;
 	flex-direction: column;
 	justify-content: space-around;
+}
+
+.baner2-bl2 a {
+	text-decoration: none;
+}
+
+.baner2-bl2 a:hover {
+	outline: 1px solid #f16d7f;
 }
 
 .baner2-bl2-content {
