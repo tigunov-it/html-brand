@@ -872,3 +872,134 @@
 	background-color: #b9b9b9;
 
 }
+
+.cart-box {
+	display: box;
+	margin-top: 90px;
+	padding-left: 98px;
+	padding-right: 98px;
+}
+
+.cart-box-header {
+	display: flex;
+	justify-content: space-between;
+	color: #222222;
+	font-family: Lato;
+	font-size: 10px;
+	text-transform: uppercase;
+}
+
+.cart-box-header h2:first-child {
+	margin-right: 150px;
+}
+
+.cart-box-product {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-top: 30px;
+	border-top: 1px solid #eaeaea;
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+
+.cart-box-product-details {
+	display: flex;
+}
+
+.cart-box-product-content h2 {
+	color: #222222;
+	font-family: Lato;
+	font-size: 13px;
+	text-transform: uppercase;
+}
+
+.cart-box-product-content-color-size {
+	margin-top: 38px;
+	color: #6f6e6e;
+	font-family: Lato;
+	font-size: 13px;
+}
+
+.cart-box-product-price {
+	color: #656565;
+	font-family: Lato;
+	font-size: 13px;
+}
+
+.cart-box-product-quanity {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 54px;
+	width: 30px;
+	border: 1px solid #eaeaea;
+	color: #656565;
+	font-family: Lato;
+	font-size: 13px;
+}
+
+.cart-box-product-shipping {
+	color: #656565;
+	font-family: Lato;
+	font-size: 13px;
+	text-transform: uppercase;
+}
+
+.cart-box-product-subtotal {
+	color: #656565;
+	font-family: Lato;
+	font-size: 13px;
+}
+
+.cart-box-product-action a {
+	text-decoration: none;
+	color: #c0c0c0;
+
+}
+
+.cart-box-product:last-child {
+	border-bottom: 1px solid #eaeaea;
+}
+
+.buttons-under-cart-box {
+	display: flex;
+	justify-content: space-around;
+	margin-top: 30px;
+}
+
+.buttons-under-cart-box a {
+	text-decoration: none;
+}
+
+.buttons-under-cart-box a:hover {
+	background-color: #f16d7f;
+}
+
+.buttons-under-cart-box-clear {
+	width: 235px;
+	height: 50px;
+	border: 1px solid #eaeaea;
+	color: #4a4a4a;
+	font-family: Lato;
+	font-size: 10px;
+	text-transform: uppercase;
+	align-content: center;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.buttons-under-cart-box-continue {
+	width: 235px;
+	height: 50px;
+	border: 1px solid #eaeaea;
+	color: #4a4a4a;
+	font-family: Lato;
+	font-size: 10px;
+	text-transform: uppercase;
+	align-content: center;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
