@@ -2,9 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="77e36ef2-3b62-42c1-a2f3-86e199a5ac88" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/cart.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/item44.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/item45.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/styles/styles.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/styles/styles.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cart.html" beforeDir="false" afterPath="$PROJECT_DIR$/cart.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/product.html" beforeDir="false" afterPath="$PROJECT_DIR$/product.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/styles/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/styles.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -16,14 +18,12 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="HTML File" />
+        <option value="SCSS File" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-  </component>
-  <component name="ProblemsViewState">
-    <option name="selectedIndex" value="1" />
   </component>
   <component name="ProjectId" id="1nZbu6Oqv1eHl0Z77zFVbJbNXnx" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -40,6 +40,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="list.type.of.created.stylesheet" value="SCSS" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
@@ -55,6 +56,8 @@
       <workItem from="1611601811031" duration="381000" />
       <workItem from="1611636134581" duration="1328000" />
       <workItem from="1611638807855" duration="4806000" />
+      <workItem from="1611646660654" duration="44000" />
+      <workItem from="1611714031676" duration="5649000" />
     </task>
     <servers />
   </component>
