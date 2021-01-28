@@ -1,3 +1,6 @@
+$font-family: Lato, serif;
+$color-second: #f16d7f;
+
 * {
   margin: 0;
   padding: 0;
@@ -46,13 +49,14 @@
   border-top: 1px solid #e6e6e6;
   border-bottom: 1px solid #e6e6e6;
   color: #222222;
-  font-family: Lato, serif;
+  font-family: $font-family;
   padding-top: 8px;
   padding-left: 10px;
 }
 
 .search-block input {
   width: 317px;
+
 }
 
 .search-button {
@@ -77,8 +81,8 @@
 .my-account {
   height: 38px;
   width: 130px;
-  background-color: #f16d7f;
-  font-family: Lato, serif;
+  background-color: $color-second;
+  font-family: $font-family;
   font-size: 15px;
   color: white;
 }
@@ -86,6 +90,7 @@
 .header-menu {
   display: block;
   height: 51px;
+
 }
 
 .menu {
@@ -93,6 +98,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+
 }
 
 .mega-menu-list {
@@ -120,11 +126,11 @@
   text-decoration: none;
   padding: 0 8px;
   margin: 0 8px;
-  font-family: Lato, serif;
+  font-family: $font-family;
 }
 
 .menu_link:hover {
-  border-bottom: 3px solid #f16d7f;
+  border-bottom: 3px solid $color-second;
 }
 
 .mega-box {
@@ -156,7 +162,7 @@
 
 .mega-box-head {
   color: #232323;
-  font-family: Lato, serif;
+  font-family: $font-family;
   font-size: 14px;
   font-weight: 400;
   width: 235px;
@@ -171,15 +177,16 @@
   display: block;
   width: 235px;
   color: #646464;
-  font-family: Lato, serif;
+  font-family: $font-family;
   font-size: 14px;
   font-weight: 400;
   line-height: 28px;
 }
 
 .mega-link:hover {
-  color: #f16d7f;
+  color: $color-second;
 }
+
 
 .baner1 {
   display: flex;
@@ -194,17 +201,17 @@
   height: 92px;
   margin-top: 276px;
   margin-left: 260px;
-  border-left: 12px solid #f16d7f;
+  border-left: 12px solid $color-second;
 }
 
 .baner1_content h1 {
-  font-family: Lato, serif;
+  font-family: $font-family;
   font-size: 40px;
   padding-left: 10px;
 }
 
 .baner1_content p {
-  font-family: Lato, serif;
+  font-family: $font-family;
   font-size: 30px;
   font-weight: 400;
   padding-left: 10px;
@@ -250,6 +257,7 @@
   height: 542px;
   background-image: url(../img/Layer_31.jpg);
   background-repeat: no-repeat;
+
 }
 
 .block_content {
@@ -261,14 +269,14 @@
 
 .block_content h1 {
   font-size: 18px;
-  font-family: Lato, serif;
+  font-family: $font-family;
   font-weight: 400;
   letter-spacing: 0.45px;
 }
 
 .block_content p {
-  font-family: Lato, serif;
-  color: #f16d7f;
+  font-family: $font-family;
+  color: $color-second;
   font-size: 30px;
   letter-spacing: 0.75px;
 }
@@ -277,7 +285,7 @@
   margin-top: 100px;
   text-align: center;
   color: #222222;
-  font-family: Lato, serif;
+  font-family: $font-family;
 }
 
 .galery-items {
@@ -325,13 +333,15 @@
   color: green;
 }
 
+
 .img-box img {
   width: 100%;
 }
 
+
 .item-name {
   color: #222222;
-  font-family: Lato, serif;
+  font-family: $font-family;
   font-size: 13px;
   font-weight: 400;
   font-style: normal;
@@ -343,8 +353,8 @@
 }
 
 .price {
-  color: #f16d7f;
-  font-family: Lato, serif;
+  color: $color-second;
+  font-family: $font-family;
   font-size: 16px;
   font-weight: 700;
   font-style: normal;
@@ -364,7 +374,7 @@
 
 .add-to-cart a {
   color: #ffffff;
-  font-family: Lato, serif;
+  font-family: $font-family;
   font-size: 13px;
   padding-left: 5px;
   text-decoration: none;
@@ -372,7 +382,7 @@
 
 .add-to-cart p {
   color: #ffffff;
-  font-family: Lato, serif;
+  font-family: $font-family;
   font-size: 13px;
   padding-left: 5px;
 }
@@ -389,15 +399,16 @@
 .button-browse {
   display: flex;
   justify-content: center;
+
 }
 
 .button-browse button {
   height: 48px;
-  background-color: #f16d7f;
+  background-color: $color-second;
   padding-left: 24px;
   padding-right: 24px;
   color: #ffffff;
-  font-family: Lato, serif;
+  font-family: $font-family;
   font-size: 16px;
   font-weight: 700;
 }
@@ -417,7 +428,7 @@
 .baner2-bl1-content {
   height: 78px;
   width: 239px;
-  font-family: Lato, serif;
+  font-family: $font-family;
   margin-top: 146px;
   margin-left: 39px;
 }
@@ -435,7 +446,7 @@
 }
 
 .baner2-bl2 a:hover {
-  outline: 1px solid #f16d7f;
+  outline: 1px solid $color-second;
 }
 
 .baner2-bl2-content {
@@ -444,7 +455,7 @@
   width: 298px;
   height: 105px;
   color: #fbfbfb;
-  font-family: Lato, serif;
+  font-family: $font-family;
   font-size: 14px;
   font-weight: 300;
   font-style: normal;
@@ -487,7 +498,7 @@
 .testi-content-box {
   display: flex;
   color: #222224;
-  font-family: Lato, serif;
+  font-family: $font-family;
   font-size: 16px;
   font-style: italic;
 }
@@ -516,13 +527,13 @@
 
 .testi-subscribe h1 {
   color: #222224;
-  font-family: Lato, serif;
+  font-family: $font-family;
   font-weight: 400;
 }
 
 .testi-subscribe p {
   color: #222224;
-  font-family: Lato, serif;
+  font-family: $font-family;
 }
 
 .subscribe-input {
@@ -536,7 +547,7 @@
   background-color: #e1e1e1;
   margin-top: 35px;
   color: #222224;
-  font-family: Lato, serif;
+  font-family: $font-family;
   font-size: 14px;
   font-weight: 400;
   padding-left: 15px;
@@ -546,21 +557,26 @@
   margin-top: 35px;
   width: 104px;
   border-radius: 0 23px 23px 0;
-  background-color: #f16d7f;
+  background-color: $color-second;
   margin-left: -100px;
   color: #ffffff;
-  font-family: Lato, serif;
+  font-family: $font-family;
   font-size: 14px;
 }
+
+
 
 .footer {
   display: flex;
   justify-content: space-around;
   margin-top: 123px;
+
 }
+
 
 .footer-column1 {
   width: 427px;
+
 }
 
 .footer-menu {
@@ -571,18 +587,18 @@
 .footer-menu a {
   text-decoration: none;
   color: #898989;
-  font-family: Lato, serif;
+  font-family: $font-family;
   font-size: 16px;
 }
 
 .footer-menu a:hover {
-  color: #f16d7f;
+  color: $color-second;
 }
 
 .footer-column1-content {
   margin-top: 41px;
   color: #898989;
-  font-family: Lato, serif;
+  font-family: $font-family;
   font-size: 14px;
   font-weight: 300;
   font-style: normal;
@@ -591,7 +607,7 @@
 .logo {
   display: flex;
   align-items: center;
-  font-family: Lato, serif;
+  font-family: $font-family;
 }
 
 .logo a {
@@ -600,9 +616,10 @@
   padding-left: 10px;
 }
 
+
 .footer-column2 h1 {
-  color: #f16d7f;
-  font-family: Lato, serif;
+  color: $color-second;
+  font-family: $font-family;
   font-size: 18px;
 }
 
@@ -611,8 +628,8 @@
 }
 
 .footer-column3 h1 {
-  color: #f16d7f;
-  font-family: Lato, serif;
+  color: $color-second;
+  font-family: $font-family;
   font-size: 18px;
 }
 
@@ -621,8 +638,8 @@
 }
 
 .footer-column4 h1 {
-  color: #f16d7f;
-  font-family: Lato, serif;
+  color: $color-second;
+  font-family: $font-family;
   font-size: 18px;
 }
 
@@ -643,7 +660,7 @@
 
 .copyright p {
   color: #7a7a7a;
-  font-family: Lato, serif;
+  font-family: $font-family;
   font-size: 16px;
   font-weight: 400;
 }
@@ -666,9 +683,11 @@
 }
 
 .social a:hover {
-  background-color: #f16d7f;
+  background-color: $color-second;
   color: white;
 }
+
+// -------------------- Страница PRODUCT --------------------
 
 .product-header {
   display: flex;
@@ -678,26 +697,27 @@
   align-items: center;
   padding-left: 98px;
   padding-right: 98px;
-  font-family: Lato, serif;
+  font-family: $font-family;
+
 }
 
 .product-header h1 {
-  color: #f16d7f;
+  color: $color-second;
   font-family: "$font-family - Black", serif;
   font-size: 24px;
   text-transform: uppercase;
 }
 
 .product-header nav a {
-  color: #f16d7f;
-  font-family: Lato, serif;
+  color: $color-second;
+  font-family: $font-family;
   font-size: 14px;
   text-transform: uppercase;
   text-decoration: none;
 }
 
 .product-header nav a:hover {
-  border-bottom: 3px solid #f16d7f;
+  border-bottom: 3px solid $color-second;
 }
 
 .product-foto {
@@ -730,8 +750,8 @@
 }
 
 .product-content-block-header h2 {
-  color: #f16d7f;
-  font-family: Lato, serif;
+  color: $color-second;
+  font-family: $font-family;
   font-size: 14px;
   text-transform: uppercase;
 }
@@ -759,20 +779,21 @@
   text-transform: uppercase;
 }
 
+
 .product-content-block-text {
   display: flex;
   width: 618px;
   margin: 67px auto auto;
   text-align: center;
   color: #5e5e5e;
-  font-family: Lato, serif;
+  font-family: $font-family;
   font-size: 14px;
 }
 
 .product-content-block-category {
   display: flex;
   color: #b9b9b9;
-  font-family: Lato, serif;
+  font-family: $font-family;
   font-size: 14px;
   justify-content: space-around;
   width: 390px;
@@ -782,8 +803,8 @@
 }
 
 .product-content-block-price {
-  color: #f16d7f;
-  font-family: Lato, serif;
+  color: $color-second;
+  font-family: $font-family;
   font-size: 24px;
   text-align: center;
   margin-top: 37px;
@@ -808,21 +829,21 @@
 
 .product-content-block-filter-color h2 {
   color: #2f2f2f;
-  font-family: Lato, serif;
+  font-family: $font-family;
   font-size: 14px;
   text-transform: uppercase;
 }
 
 .product-content-block-filter-size h2 {
   color: #2f2f2f;
-  font-family: Lato, serif;
+  font-family: $font-family;
   font-size: 14px;
   text-transform: uppercase;
 }
 
 .product-content-block-filter-quanity h2 {
   color: #2f2f2f;
-  font-family: Lato, serif;
+  font-family: $font-family;
   font-size: 14px;
   text-transform: uppercase;
 }
@@ -834,9 +855,9 @@
 .product-content-block-cart {
   display: flex;
   width: 537px;
-  border: 1px solid #f16d7f;
-  color: #f16d7f;
-  font-family: Lato, serif;
+  border: 1px solid $color-second;
+  color: $color-second;
+  font-family: $font-family;
   font-size: 11px;
   font-weight: 700;
   justify-content: center;
@@ -852,7 +873,10 @@
 
 .product-content-block-cart:hover {
   background-color: #b9b9b9;
+
 }
+
+// ------------------------- Страница корзины (cart) -------------------------
 
 .cart-box {
   margin-top: 90px;
@@ -864,7 +888,7 @@
   display: flex;
   justify-content: space-between;
   color: #222222;
-  font-family: Lato, serif;
+  font-family: $font-family;
   font-size: 10px;
   text-transform: uppercase;
 }
@@ -889,7 +913,7 @@
 
 .cart-box-product-content h2 {
   color: #222222;
-  font-family: Lato, serif;
+  font-family: $font-family;
   font-size: 13px;
   text-transform: uppercase;
   margin-left: 28px;
@@ -898,13 +922,13 @@
 .cart-box-product-content-color-size {
   margin-top: 38px;
   color: #6f6e6e;
-  font-family: Lato, serif;
+  font-family: $font-family;
   font-size: 13px;
 }
 
 .cart-box-product-price {
   color: #656565;
-  font-family: Lato, serif;
+  font-family: $font-family;
   font-size: 13px;
 }
 
@@ -916,26 +940,27 @@
   width: 30px;
   border: 1px solid #eaeaea;
   color: #656565;
-  font-family: Lato, serif;
+  font-family: $font-family;
   font-size: 13px;
 }
 
 .cart-box-product-shipping {
   color: #656565;
-  font-family: Lato, serif;
+  font-family: $font-family;
   font-size: 13px;
   text-transform: uppercase;
 }
 
 .cart-box-product-subtotal {
   color: #656565;
-  font-family: Lato, serif;
+  font-family: $font-family;
   font-size: 13px;
 }
 
 .cart-box-product-action a {
   text-decoration: none;
   color: #c0c0c0;
+
 }
 
 .cart-box-product:last-child {
@@ -953,7 +978,7 @@
 }
 
 .buttons-under-cart-box a:hover {
-  background-color: #f16d7f;
+  background-color: $color-second;
 }
 
 .buttons-under-cart-box-c {
@@ -961,7 +986,7 @@
   height: 50px;
   border: 1px solid #eaeaea;
   color: #4a4a4a;
-  font-family: Lato, serif;
+  font-family: $font-family;
   font-size: 10px;
   text-transform: uppercase;
   align-content: center;
@@ -974,108 +999,110 @@
   display: flex;
   justify-content: space-evenly;
   margin-top: 80px;
-  font-family: Lato, serif;
+  font-family: $font-family;
 }
 
-.checkout-address h2 {
-  text-transform: uppercase;
-}
-.checkout-address a {
-  text-decoration: none;
-}
-.checkout-address input {
-  height: 45px;
-  width: 335px;
-  margin-top: 18px;
-}
-.checkout-address .checkout-address-get {
-  height: 35px;
-  width: 100px;
-  border: 1px solid #eaeaea;
-  color: #4a4a4a;
-  font-family: Lato, serif;
-  font-size: 7px;
-  text-transform: uppercase;
-  align-content: center;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-top: 18px;
-}
-.checkout-address .checkout-address-get:hover {
-  background-color: #f16d7f;
+.checkout-address {
+  h2 {
+    text-transform: uppercase;
+  }
+  a {
+    text-decoration: none;
+  }
+  input {
+    height: 45px;
+    width: 335px;
+    margin-top: 18px;
+  }
+  .checkout-address-get {
+    height: 35px;
+    width: 100px;
+    border: 1px solid #eaeaea;
+    color: #4a4a4a;
+    font-family: $font-family;
+    font-size: 7px;
+    text-transform: uppercase;
+    align-content: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 18px;
+    &:hover {
+      background-color: $color-second;
+    }
+  }
 }
 
-.checkout-coupon h2 {
-  text-transform: uppercase;
-}
-.checkout-coupon input {
-  height: 45px;
-  width: 335px;
-  margin-top: 18px;
-}
-.checkout-coupon a {
-  text-decoration: none;
-}
-.checkout-coupon .checkout-coupon-apply {
-  height: 35px;
-  width: 100px;
-  border: 1px solid #eaeaea;
-  color: #4a4a4a;
-  font-family: Lato, serif;
-  font-size: 7px;
-  text-transform: uppercase;
-  align-content: center;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-top: 18px;
-}
-.checkout-coupon .checkout-coupon-apply:hover {
-  background-color: #f16d7f;
+.checkout-coupon {
+  h2 {
+    text-transform: uppercase;
+  }
+  input {
+    height: 45px;
+    width: 335px;
+    margin-top: 18px;
+  }
+  a {
+    text-decoration: none;
+  }
+  .checkout-coupon-apply {
+    height: 35px;
+    width: 100px;
+    border: 1px solid #eaeaea;
+    color: #4a4a4a;
+    font-family: $font-family;
+    font-size: 7px;
+    text-transform: uppercase;
+    align-content: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 18px;
+    &:hover {
+      background-color: $color-second;
+    }
+  }
 }
 
 .checkout-total {
   background-color: #f5f3f3;
   height: 214px;
+  .checkout-total-content {
+    border-bottom: 1px solid #eaeaea;
+    margin-top: 30px;
+    margin-left: 30px;
+    margin-right: 30px;
+    padding-bottom: 30px;
+  }
+  h2 {
+    color: #4a4a4a;
+    font-family: $font-family;
+    font-size: 11px;
+    text-transform: uppercase;
+  }
+  h3 {
+    color: #222222;
+    font-family: $font-family;
+    font-size: 16px;
+    text-transform: uppercase;
+  }
+  a {
+    text-decoration: none;
+  }
+  .checkout-total-proceed {
+    height: 50px;
+    width: 273px;
+    background-color: $color-second;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    margin-left: 30px;
+    margin-right: 30px;
+    h2 {
+      color: #ffffff;
+      font-family: $font-family;
+      font-size: 16px;
+    }
+  }
 }
-.checkout-total .checkout-total-content {
-  border-bottom: 1px solid #eaeaea;
-  margin-top: 30px;
-  margin-left: 30px;
-  margin-right: 30px;
-  padding-bottom: 30px;
-}
-.checkout-total h2 {
-  color: #4a4a4a;
-  font-family: Lato, serif;
-  font-size: 11px;
-  text-transform: uppercase;
-}
-.checkout-total h3 {
-  color: #222222;
-  font-family: Lato, serif;
-  font-size: 16px;
-  text-transform: uppercase;
-}
-.checkout-total a {
-  text-decoration: none;
-}
-.checkout-total .checkout-total-proceed {
-  height: 50px;
-  width: 273px;
-  background-color: #f16d7f;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-top: 30px;
-  margin-left: 30px;
-  margin-right: 30px;
-}
-.checkout-total .checkout-total-proceed h2 {
-  color: #ffffff;
-  font-family: Lato, serif;
-  font-size: 16px;
-}
-
-/*# sourceMappingURL=styles.css.map */
