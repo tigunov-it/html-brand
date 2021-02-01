@@ -322,10 +322,14 @@ $color-second: #f16d7f;
 
 .img-box {
   display: flex;
+  transition: transform 2s;
 }
 
 .img-box:hover {
   filter: brightness(50%);
+  -ms-transform: scale(1.1); /* IE 9 */
+  -webkit-transform: scale(1.1); /* Safari 3-8 */
+  transform: scale(1.1);
 }
 
 .item:hover .add-to-cart {
@@ -680,6 +684,7 @@ $color-second: #f16d7f;
   align-items: center;
   text-decoration: none;
   color: #b2b2b2;
+  transition: background-color 500ms;
 }
 
 .social a:hover {
@@ -1104,5 +1109,62 @@ $color-second: #f16d7f;
       font-family: $font-family;
       font-size: 16px;
     }
+  }
+}
+//------------Страница Checkout-----------------//
+.shipping-address {
+  display: flex;
+  max-width: 974px;
+  margin-top: 89px;
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: center;
+  &__register {
+    width: 50%;
+  }
+  &__alredy-register {
+    width: 50%;
+  }
+  h1 {
+    color: #222222;
+    font-family: $font-family;
+    font-size: 16px;
+    text-transform: uppercase;
+
+  }
+  h2 {
+    color: #222222;
+    font-size: 13px;
+    font-family: $font-family;
+    text-transform: uppercase;
+    padding-top: 39px;
+  }
+  h3 {
+    color: #b3b2b2;
+    font-family: $font-family;
+    font-size: 13px;
+    padding-top: 20px;
+
+  }
+  button {
+    width: 180px;
+    height: 50px;
+    border: 1px solid #eaeaea;
+    background-color: #ffffff;
+    color: #4a4a4a;
+    font-family: $font-family;
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+    &:hover {
+      background-color: #4a4a4a;
+      color: white;
+    }
+  }
+}
+.shipping-address__alredy-register {
+  input {
+    height: 45px;
+    width: 100%;
   }
 }
