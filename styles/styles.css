@@ -153,6 +153,20 @@
   transform: rotate(45deg);
 }
 
+.menu-list-last:hover .mega-box:before {
+  content: "";
+  display: block;
+  width: 12px;
+  height: 12px;
+  border-left: 1px solid #ccc;
+  border-top: 1px solid #ccc;
+  background-color: white;
+  position: absolute;
+  top: -7px;
+  right: 40px;
+  transform: rotate(45deg);
+}
+
 .mega-box-content {
   padding: 20px;
 }
