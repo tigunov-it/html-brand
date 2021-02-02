@@ -56,6 +56,8 @@ $color-second: #f16d7f;
 
 .search-block input {
   width: 317px;
+  border: 1px solid #e6e6e6;
+  border-radius: 0 3px 3px 0;
 
 }
 
@@ -85,6 +87,7 @@ $color-second: #f16d7f;
   font-family: $font-family;
   font-size: 15px;
   color: white;
+  border: none;
 }
 
 .header-menu {
@@ -306,11 +309,15 @@ $color-second: #f16d7f;
   position: relative;
   height: 364px;
   width: 263px;
-}
-
-.item:hover {
-  box-shadow: 0 5px 8px rgba(0, 0, 0, 0.16);
-  background-color: #ffffff;
+  transition: 1s;
+  padding-bottom: 39px;
+  &:hover {
+    box-shadow: 0 5px 8px rgba(0, 0, 0, 0.16);
+    background-color: #ffffff;
+    -ms-transform: scale(1.1); /* IE 9 */
+    -webkit-transform: scale(1.1); /* Safari 3-8 */
+    transform: scale(1.1);
+  }
 }
 
 .product-link {
@@ -322,14 +329,10 @@ $color-second: #f16d7f;
 
 .img-box {
   display: flex;
-  transition: transform 2s;
 }
 
 .img-box:hover {
   filter: brightness(50%);
-  -ms-transform: scale(1.1); /* IE 9 */
-  -webkit-transform: scale(1.1); /* Safari 3-8 */
-  transform: scale(1.1);
 }
 
 .item:hover .add-to-cart {
@@ -415,6 +418,11 @@ $color-second: #f16d7f;
   font-family: $font-family;
   font-size: 16px;
   font-weight: 700;
+  border: none;
+  transition: 0.3s;
+  &:hover {
+    transform: scale(1.1);
+  }
 }
 
 .baner2 {
@@ -483,9 +491,7 @@ $color-second: #f16d7f;
   margin-top: 113px;
   display: flex;
   background-repeat: no-repeat;
-  background-position-x: center;
   background-size: cover;
-  width: 1618px;
   height: 438px;
   background-color: #f2f2f2;
   justify-content: space-around;
@@ -523,6 +529,23 @@ $color-second: #f16d7f;
   color: #222224;
 }
 
+.testi-content-pagination-box {
+  display: flex;
+  justify-content: center;
+  margin-top: 41px;
+  .testi-content-pagination {
+    height: 4px;
+    width: 38px;
+    background-color: #d6d6d6;
+    margin-right: 13px;
+    &:hover {
+      background-color: $color-second;
+    }
+  }
+}
+
+
+
 .testi-subscribe {
   display: flex;
   flex-direction: column;
@@ -555,6 +578,7 @@ $color-second: #f16d7f;
   font-size: 14px;
   font-weight: 400;
   padding-left: 15px;
+  border: none;
 }
 
 .subscribe-input button {
@@ -566,6 +590,12 @@ $color-second: #f16d7f;
   color: #ffffff;
   font-family: $font-family;
   font-size: 14px;
+  border: none;
+  transition: 0.3s;
+}
+
+.subscribe-input button:hover {
+  transform: scale(1.1);
 }
 
 

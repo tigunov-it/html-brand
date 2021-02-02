@@ -2,8 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="77e36ef2-3b62-42c1-a2f3-86e199a5ac88" name="Default Changelist" comment="ver 1.0b Add SASS preprocessor. Modify shop cart page.">
-      <change afterPath="$PROJECT_DIR$/checkout.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cart.html" beforeDir="false" afterPath="$PROJECT_DIR$/cart.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkout.html" beforeDir="false" afterPath="$PROJECT_DIR$/checkout.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/product.html" beforeDir="false" afterPath="$PROJECT_DIR$/product.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/styles/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/styles.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/styles/styles.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/styles/styles.css.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/styles/styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/styles/styles.scss" afterDir="false" />
@@ -65,7 +68,8 @@
       <workItem from="1611727323144" duration="2499000" />
       <workItem from="1611741463641" duration="586000" />
       <workItem from="1611742728474" duration="1110000" />
-      <workItem from="1612164825656" duration="6521000" />
+      <workItem from="1612164825656" duration="6960000" />
+      <workItem from="1612250899428" duration="4675000" />
     </task>
     <task id="LOCAL-00001" summary="ver 1.0b Add SASS preprocessor. Modify shop cart page.">
       <created>1611727690231</created>
@@ -91,7 +95,7 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="lesson4" />
+                        <option value="lesson5" />
                       </list>
                     </value>
                   </entry>
