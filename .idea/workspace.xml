@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="77e36ef2-3b62-42c1-a2f3-86e199a5ac88" name="Default Changelist" comment="ver 1.3b Correct menu-list-last:hover element">
+      <change afterPath="$PROJECT_DIR$/img/cart/01.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/cart/02.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/menusale.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/products/01.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/products/02.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/products/03.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/products/04.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/products/05.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/products/06.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/products/07.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/products/08.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/products/09.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/products/icon/01.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/products/icon/02.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/products/icon/03.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/products.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cart.html" beforeDir="false" afterPath="$PROJECT_DIR$/cart.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkout.html" beforeDir="false" afterPath="$PROJECT_DIR$/checkout.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/product.html" beforeDir="false" afterPath="$PROJECT_DIR$/product.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/styles.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/styles/styles.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/styles/styles.scss" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="SCSS File" />
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="lesson3" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1nZbu6Oqv1eHl0Z77zFVbJbNXnx" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="list.type.of.created.stylesheet" value="SCSS" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="77e36ef2-3b62-42c1-a2f3-86e199a5ac88" name="Default Changelist" comment="" />
+      <created>1611600783719</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1611600783719</updated>
+      <workItem from="1611600789565" duration="54000" />
+      <workItem from="1611601811031" duration="381000" />
+      <workItem from="1611636134581" duration="1328000" />
+      <workItem from="1611638807855" duration="4806000" />
+      <workItem from="1611646660654" duration="44000" />
+      <workItem from="1611714031676" duration="5649000" />
+      <workItem from="1611727323144" duration="2499000" />
+      <workItem from="1611741463641" duration="586000" />
+      <workItem from="1611742728474" duration="1110000" />
+      <workItem from="1612164825656" duration="6960000" />
+      <workItem from="1612250899428" duration="4675000" />
+      <workItem from="1612256163195" duration="146000" />
+      <workItem from="1612273364620" duration="2855000" />
+      <workItem from="1612322425998" duration="1590000" />
+      <workItem from="1612331870630" duration="3305000" />
+      <workItem from="1612339371483" duration="6189000" />
+      <workItem from="1612347343625" duration="1112000" />
+      <workItem from="1612407263072" duration="3059000" />
+      <workItem from="1612512984895" duration="3367000" />
+      <workItem from="1612516425622" duration="51000" />
+      <workItem from="1612533670090" duration="3952000" />
+      <workItem from="1612589624392" duration="7867000" />
+      <workItem from="1612615518786" duration="1823000" />
+      <workItem from="1612690921556" duration="7164000" />
+      <workItem from="1612747019311" duration="2225000" />
+    </task>
+    <task id="LOCAL-00001" summary="ver 1.0b Add SASS preprocessor. Modify shop cart page.">
+      <created>1611727690231</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1611727690231</updated>
+    </task>
+    <task id="LOCAL-00002" summary="ver 1.2b Add transform and animation. Edit testi block">
+      <created>1612256268342</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1612256268342</updated>
+    </task>
+    <task id="LOCAL-00003" summary="ver 1.3b Correct menu-list-last:hover element">
+      <created>1612279204001</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1612279204001</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="HEAD" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="ver 1.0b Add SASS preprocessor. Modify shop cart page." />
+    <MESSAGE value="ver 1.2b Add transform and animation. Edit testi block" />
+    <MESSAGE value="ver 1.3b Correct menu-list-last:hover element" />
+    <option name="LAST_COMMIT_MESSAGE" value="ver 1.3b Correct menu-list-last:hover element" />
+  </component>
+</project>
