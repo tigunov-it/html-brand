@@ -1,5 +1,12 @@
+//======Переменные шрифтов и цветов сайта =================
 $font-family: Lato, serif;
 $color-second: #f16d7f;
+//======Переменные для медиазапросов ======================
+$xs: 320px;
+$sm: 576px;
+$md: 768px;
+$lg: 992px;
+$xl: 1200px;
 
 /*Обнуление*/
 *{
@@ -21,6 +28,7 @@ html,body{
   height: 100%;
   width: 100%;
   line-height: 1;
+  font-family: $font-family;
   -ms-text-size-adjust: 100%;
   -moz-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
@@ -41,6 +49,10 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;}
 .pading-site {
   padding-left: 98px;
   padding-right: 98px;
+  @media (max-width: $lg) {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
 }
 
 .container {
@@ -100,6 +112,9 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;}
   max-width: 403px;
   margin-left: 37px;
   border: 1px solid #e6e6e6;
+  @media (max-width: $md) {
+    max-width: 287px;
+  }
   &__browse {
     display: flex;
     min-width: 87px;
@@ -434,6 +449,9 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;}
     margin-top: 276px;
     margin-left: 140px;
     border-left: 12px solid $color-second;
+    @media (max-width: $sm) {
+      margin-left: 10px;
+    }
     h1 {
       font-family: $font-family;
       font-size: 60px;
@@ -456,8 +474,14 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;}
   display: flex;
   max-width: 1141px;
   margin: 98px auto;
+    @media (max-width: $sm) {
+      flex-direction: column;
+    }
   &__left {
     width: 50%;
+    @media (max-width: $sm) {
+      width: 100%;
+    }
     .block1 {
       display: flex;
       height: 542px;
@@ -497,6 +521,9 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;}
   }
   &__right {
     width: 50%;
+    @media (max-width: $sm) {
+      width: 100%;
+    }
     .block3 {
       display: flex;
       height: 261px;
@@ -633,6 +660,7 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;}
 
 .img-box img {
   width: 100%;
+  height: 280px;
 }
 
 
@@ -697,6 +725,9 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;}
   display: flex;
   justify-content: center;
   margin-top: 35px;
+  @media (max-width: $md) {
+    margin-top: 1px;
+  }
 
 }
 
@@ -718,14 +749,27 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;}
 
 .baner2 {
   margin-top: 113px;
+  margin-left: auto;
+  margin-right: auto;
   display: flex;
-  height: 529px;
-  justify-content: center;
+  min-height: 529px;
+  max-width: 1140px;
+  @media (max-width: $md) {
+    flex-direction: column;
+    margin-top: 20px;
+  }
 }
 
 .baner2-bl1 {
   background-image: url(../img/Layer_38.jpg);
-  width: 767px;
+  height: 529px;
+  width: 70%;
+  background-repeat: no-repeat;
+  background-position-x: center;
+  background-size: cover;
+  @media (max-width: $md) {
+    width: 100%;
+  }
 }
 
 .baner2-bl1-content {
@@ -749,10 +793,14 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;}
 
 .baner2-bl2 {
   background-color: #222224;
-  width: 373px;
+  width: 30%;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
+  @media (max-width: $md) {
+    width: 100%;
+    align-items: center;
+  }
 }
 
 .baner2-bl2 a {
@@ -770,6 +818,9 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;}
   height: 105px;
   color: #fbfbfb;
   font-family: $font-family;
+  @media (max-width: $md) {
+    margin: 20px;
+  }
 }
 
 .baner2-bl2-content img {
@@ -799,6 +850,10 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;}
   background-color: #f2f2f2;
   justify-content: space-around;
   align-items: center;
+  @media (max-width: $lg) {
+    flex-direction: column;
+    margin-top: 50px;
+  }
 }
 
 .testi-content {
@@ -816,11 +871,16 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;}
   font-style: italic;
   line-height: 26px;
   font-weight: 700;
+  @media (max-width: $md) {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
 }
 
 .testi-text {
   display: flex;
-  width: 386px;
+  max-width: 386px;
   padding-left: 30px;
 }
 
@@ -832,6 +892,11 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;}
 .testi-podpis {
   padding-left: 150px;
   color: #222224;
+  @media (max-width: $sm) {
+    padding-left: 0;
+    margin-top: 10px;
+    text-align: center;
+  }
 }
 
 .testi-content-pagination-box {
@@ -871,10 +936,16 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;}
   font-style: normal;
   letter-spacing: 0.35px;
   line-height: 24px;
+  @media (max-width: $sm) {
+    font-size: 13px;
+  }
 }
 
 .subscribe-input {
   display: flex;
+  @media (max-width: $sm) {
+    margin-bottom: 10px;
+  }
 }
 
 .subscribe-input input {
@@ -889,6 +960,9 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;}
   font-weight: 400;
   padding-left: 15px;
   border: none;
+  @media (max-width: $sm) {
+    width: 260px;
+  }
 }
 
 .subscribe-input button {
@@ -914,16 +988,21 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;}
   display: flex;
   justify-content: space-around;
   margin-top: 123px;
-
+  @media (max-width: $md) {
+    flex-wrap: wrap;
+    align-items: center;
+    margin-top: 30px;
+  }
 }
-
 
 .footer-column1 {
   width: 427px;
   line-height: 24px;
   color: #222222;
   font-size: 27px;
-
+  @media (max-width: $md) {
+    width: 100%;
+  }
 }
 
 .footer-menu {
@@ -951,37 +1030,27 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;}
   font-style: normal;
 }
 
+.footer-column2 {
+  @media (max-width: $md) {
+    margin: 20px;
+  }
+}
+
 .footer-column2 h1 {
   color: $color-second;
   font-family: $font-family;
   font-size: 18px;
+  @media (max-width: $xl) {
+    font-size: 14px;
+  }
 }
 
 .footer-column2 ul {
   margin-top: 45px;
   line-height: 42px;
-}
-
-.footer-column3 h1 {
-  color: $color-second;
-  font-family: $font-family;
-  font-size: 18px;
-}
-
-.footer-column3 ul {
-  margin-top: 45px;
-  line-height: 42px;
-}
-
-.footer-column4 h1 {
-  color: $color-second;
-  font-family: $font-family;
-  font-size: 18px;
-}
-
-.footer-column4 ul {
-  margin-top: 45px;
-  line-height: 42px;
+  @media (max-width: $md) {
+    margin-top: 5px;
+  }
 }
 
 .footer2 {
@@ -993,6 +1062,11 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;}
   padding-left: 160px;
   padding-right: 160px;
   margin-top: 122px;
+  @media (max-width: $md) {
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-top: 20px;
+  }
 }
 
 .copyright p {
@@ -1115,17 +1189,22 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;}
 
 .product-content-block-header h3 {
   text-transform: uppercase;
+  font-family: $font-family;
+  font-weight: 900;
 }
 
 
 .product-content-block-text {
-  display: flex;
   width: 618px;
-  margin: 67px auto auto;
-  text-align: center;
+  height: 60px;
   color: #5e5e5e;
-  font-family: $font-family;
   font-size: 14px;
+  font-weight: 300;
+  line-height: 24px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 67px;
 }
 
 .product-content-block-category {
@@ -1196,10 +1275,11 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;}
   border: 1px solid $color-second;
   color: $color-second;
   font-family: $font-family;
-  font-size: 11px;
+  font-size: 16px;
   font-weight: 700;
   justify-content: center;
-  padding: 23px;
+  font-size: 16px;
+  padding: 16px;
   margin-top: 28px;
   margin-left: auto;
   margin-right: auto;
@@ -1642,9 +1722,12 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;}
   justify-content: space-evenly;
   align-items: center;
   max-width: 1600px;
-  height: 341px;
+  min-height: 341px;
   background-color: #222224;
   font-family: $font-family;
+  @media (max-width: $md) {
+    flex-wrap: wrap;
+  }
   &__column {
     max-width: 309px;
     display: flex;

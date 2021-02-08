@@ -2,25 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="77e36ef2-3b62-42c1-a2f3-86e199a5ac88" name="Default Changelist" comment="ver 1.3b Correct menu-list-last:hover element">
-      <change afterPath="$PROJECT_DIR$/img/cart/01.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/cart/02.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/menusale.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/products/01.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/products/02.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/products/03.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/products/04.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/products/05.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/products/06.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/products/07.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/products/08.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/products/09.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/products/icon/01.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/products/icon/02.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/products/icon/03.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/products.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/product/01.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/product/02.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/product/03.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/product/04.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cart.html" beforeDir="false" afterPath="$PROJECT_DIR$/cart.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/checkout.html" beforeDir="false" afterPath="$PROJECT_DIR$/checkout.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/product.html" beforeDir="false" afterPath="$PROJECT_DIR$/product.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/styles/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/styles.css" afterDir="false" />
@@ -100,6 +87,8 @@
       <workItem from="1612615518786" duration="1823000" />
       <workItem from="1612690921556" duration="7164000" />
       <workItem from="1612747019311" duration="2225000" />
+      <workItem from="1612750090767" duration="54000" />
+      <workItem from="1612750961672" duration="8669000" />
     </task>
     <task id="LOCAL-00001" summary="ver 1.0b Add SASS preprocessor. Modify shop cart page.">
       <created>1611727690231</created>
