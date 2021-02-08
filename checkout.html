@@ -4,11 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Brand</title>
-    <link rel="stylesheet" type="text/css" href="styles/styles.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="styles/styles.css">
     <script src="https://kit.fontawesome.com/b68ba4a2ca.js" crossorigin="anonymous"></script>
-
 </head>
 <body>
 
@@ -18,25 +17,108 @@
 
         <div class="header-left">
             <div class="logo">
-                <a href="#"><img src="img/Group_2.jpg"></a>
-                <a href=""><h1>BRAN<font color="#fa8192">D</font></h1></a>
+                <a href="index.html"><img src="img/Group_2.jpg"></a>
+                <a href="index.html"><h1>BRAN<span style="color: #fa8192;">D</span></h1></a>
             </div>
             <div class="search-block">
-                <details class="browse"> <summary> Browse </summary>  </details>
-                <input type="text" placeholder="Search for Item...">
-                <div class="search-button">
+
+                <a href="#">
+                    <div class="search-block__browse">
+                        <p>Browse</p>
+                        <i class="fas fa-caret-down"></i>
+                    </div>
+                </a>
+
+                <input class="search-block__input" type="text" placeholder="Search for Item...">
+                <div class="search-block__button">
                     <a href="#"><i class="fas fa-search"></i></a>
                 </div>
             </div>
         </div>
 
         <div class="header-right">
-            <a href="#"><img src="img/Forma_1.svg"></a>
-            <a href="#"> <button class="my-account"> <details> <summary> My Account </summary>  </details> </button></a>
+
+            <div class="cart-icon">
+                <a href="#">
+                    <img src="img/Forma_1.svg" alt="cart">
+                </a>
+                <div class="cart-menu">
+
+                    <div class="cart-menu__item">
+
+                        <div class="cart-menu__item-img">
+                            <img src="img/cart/01.jpg" alt="product">
+                        </div>
+
+                        <div class="cart-menu__item-content">
+                            <h2>Rebox Zane</h2>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half"></i>
+                            <h3>1  x  $250</h3>
+
+                        </div>
+                        <div class="cart-menu__delitem">
+                            <a href="#"><i class="fas fa-times-circle"></i></a>
+                        </div>
+                    </div>
+
+                    <div class="cart-menu__item">
+
+                        <div class="cart-menu__item-img">
+                            <img src="img/cart/02.jpg" alt="product">
+                        </div>
+
+                        <div class="cart-menu__item-content">
+                            <h2>Rebox Zane</h2>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half"></i>
+                            <h3>1  x  $250</h3>
+
+                        </div>
+                        <div class="cart-menu__delitem">
+                            <a href="#"><i class="fas fa-times-circle"></i></a>
+                        </div>
+                    </div>
+                    <div class="cart-menu__total">
+
+                        <div class="cart-menu__total-tot">
+                            <h2>TOTAL</h2>
+                        </div>
+                        <div class="cart-menu__total-sum">
+                            <h2>$500.00</h2>
+                        </div>
+
+                    </div>
+                    <a href="#">
+                        <div class="cart-menu__checkout">
+                            <h3>Checkout</h3>
+                        </div>
+                    </a>
+                    <a href="#">
+                        <div class="cart-menu__checkout add">
+                            <h3>Go to cart</h3>
+                        </div>
+                    </a>
+                </div>
+            </div>
+
+            <a href="#">
+                <div class="my-account">
+                    <p> My Account </p>
+                    <i class="fas fa-caret-down"></i>
+                </div>
+            </a>
+
+
         </div>
 
     </header>
-
 
     <nav class="header-menu">
         <ul class="menu">
@@ -100,11 +182,15 @@
                                 <li class="mega-menu-list"> <a class="mega-link" href="#">Leggings/Pants</a></li>
                                 <li class="mega-menu-list"> <a class="mega-link" href="#">Skirts/Shorts</a></li>
                                 <li class="mega-menu-list"> <a class="mega-link" href="#">Accessories</a></li>
-                                <li class="mega-menu-list"> <a class="mega-link" href="#">Bags/Purses</a></li>
-                                <li class="mega-menu-list"> <a class="mega-link" href="#">Swimwear/Underwear</a></li>
-                                <li class="mega-menu-list"> <a class="mega-link" href="#">Nightwear</a></li>
-                                <li class="mega-menu-list"> <a class="mega-link" href="#">Shoes</a></li>
-                                <li class="mega-menu-list"> <a class="mega-link" href="#">Beauty</a></li>
+                                <li class="mega-menu-list">
+                                    <a class="mega-link" href="#">
+                                        <div class="mega-link-menu-sale">
+                                            <div class="mega-link-menu-sale-text">
+                                                <h2>SUPER SALE</h2>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </li>
                             </ul>
                         </div>
                     </div>
@@ -172,11 +258,15 @@
                                 <li class="mega-menu-list"> <a class="mega-link" href="#">Leggings/Pants</a></li>
                                 <li class="mega-menu-list"> <a class="mega-link" href="#">Skirts/Shorts</a></li>
                                 <li class="mega-menu-list"> <a class="mega-link" href="#">Accessories</a></li>
-                                <li class="mega-menu-list"> <a class="mega-link" href="#">Bags/Purses</a></li>
-                                <li class="mega-menu-list"> <a class="mega-link" href="#">Swimwear/Underwear</a></li>
-                                <li class="mega-menu-list"> <a class="mega-link" href="#">Nightwear</a></li>
-                                <li class="mega-menu-list"> <a class="mega-link" href="#">Shoes</a></li>
-                                <li class="mega-menu-list"> <a class="mega-link" href="#">Beauty</a></li>
+                                <li class="mega-menu-list">
+                                    <a class="mega-link" href="#">
+                                        <div class="mega-link-menu-sale">
+                                            <div class="mega-link-menu-sale-text">
+                                                <h2>SUPER SALE</h2>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </li>
                             </ul>
                         </div>
                     </div>
@@ -244,11 +334,15 @@
                                 <li class="mega-menu-list"> <a class="mega-link" href="#">Leggings/Pants</a></li>
                                 <li class="mega-menu-list"> <a class="mega-link" href="#">Skirts/Shorts</a></li>
                                 <li class="mega-menu-list"> <a class="mega-link" href="#">Accessories</a></li>
-                                <li class="mega-menu-list"> <a class="mega-link" href="#">Bags/Purses</a></li>
-                                <li class="mega-menu-list"> <a class="mega-link" href="#">Swimwear/Underwear</a></li>
-                                <li class="mega-menu-list"> <a class="mega-link" href="#">Nightwear</a></li>
-                                <li class="mega-menu-list"> <a class="mega-link" href="#">Shoes</a></li>
-                                <li class="mega-menu-list"> <a class="mega-link" href="#">Beauty</a></li>
+                                <li class="mega-menu-list">
+                                    <a class="mega-link" href="#">
+                                        <div class="mega-link-menu-sale">
+                                            <div class="mega-link-menu-sale-text">
+                                                <h2>SUPER SALE</h2>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </li>
                             </ul>
                         </div>
                     </div>
@@ -316,11 +410,15 @@
                                 <li class="mega-menu-list"> <a class="mega-link" href="#">Leggings/Pants</a></li>
                                 <li class="mega-menu-list"> <a class="mega-link" href="#">Skirts/Shorts</a></li>
                                 <li class="mega-menu-list"> <a class="mega-link" href="#">Accessories</a></li>
-                                <li class="mega-menu-list"> <a class="mega-link" href="#">Bags/Purses</a></li>
-                                <li class="mega-menu-list"> <a class="mega-link" href="#">Swimwear/Underwear</a></li>
-                                <li class="mega-menu-list"> <a class="mega-link" href="#">Nightwear</a></li>
-                                <li class="mega-menu-list"> <a class="mega-link" href="#">Shoes</a></li>
-                                <li class="mega-menu-list"> <a class="mega-link" href="#">Beauty</a></li>
+                                <li class="mega-menu-list">
+                                    <a class="mega-link" href="#">
+                                        <div class="mega-link-menu-sale">
+                                            <div class="mega-link-menu-sale-text">
+                                                <h2>SUPER SALE</h2>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </li>
                             </ul>
                         </div>
                     </div>
@@ -388,11 +486,15 @@
                                 <li class="mega-menu-list"> <a class="mega-link" href="#">Leggings/Pants</a></li>
                                 <li class="mega-menu-list"> <a class="mega-link" href="#">Skirts/Shorts</a></li>
                                 <li class="mega-menu-list"> <a class="mega-link" href="#">Accessories</a></li>
-                                <li class="mega-menu-list"> <a class="mega-link" href="#">Bags/Purses</a></li>
-                                <li class="mega-menu-list"> <a class="mega-link" href="#">Swimwear/Underwear</a></li>
-                                <li class="mega-menu-list"> <a class="mega-link" href="#">Nightwear</a></li>
-                                <li class="mega-menu-list"> <a class="mega-link" href="#">Shoes</a></li>
-                                <li class="mega-menu-list"> <a class="mega-link" href="#">Beauty</a></li>
+                                <li class="mega-menu-list">
+                                    <a class="mega-link" href="#">
+                                        <div class="mega-link-menu-sale">
+                                            <div class="mega-link-menu-sale-text">
+                                                <h2>SUPER SALE</h2>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </li>
                             </ul>
                         </div>
                     </div>
@@ -460,11 +562,15 @@
                                 <li class="mega-menu-list"> <a class="mega-link" href="#">Leggings/Pants</a></li>
                                 <li class="mega-menu-list"> <a class="mega-link" href="#">Skirts/Shorts</a></li>
                                 <li class="mega-menu-list"> <a class="mega-link" href="#">Accessories</a></li>
-                                <li class="mega-menu-list"> <a class="mega-link" href="#">Bags/Purses</a></li>
-                                <li class="mega-menu-list"> <a class="mega-link" href="#">Swimwear/Underwear</a></li>
-                                <li class="mega-menu-list"> <a class="mega-link" href="#">Nightwear</a></li>
-                                <li class="mega-menu-list"> <a class="mega-link" href="#">Shoes</a></li>
-                                <li class="mega-menu-list"> <a class="mega-link" href="#">Beauty</a></li>
+                                <li class="mega-menu-list">
+                                    <a class="mega-link" href="#">
+                                        <div class="mega-link-menu-sale">
+                                            <div class="mega-link-menu-sale-text">
+                                                <h2>SUPER SALE</h2>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </li>
                             </ul>
                         </div>
                     </div>
@@ -532,11 +638,15 @@
                                 <li class="mega-menu-list"> <a class="mega-link" href="#">Leggings/Pants</a></li>
                                 <li class="mega-menu-list"> <a class="mega-link" href="#">Skirts/Shorts</a></li>
                                 <li class="mega-menu-list"> <a class="mega-link" href="#">Accessories</a></li>
-                                <li class="mega-menu-list"> <a class="mega-link" href="#">Bags/Purses</a></li>
-                                <li class="mega-menu-list"> <a class="mega-link" href="#">Swimwear/Underwear</a></li>
-                                <li class="mega-menu-list"> <a class="mega-link" href="#">Nightwear</a></li>
-                                <li class="mega-menu-list"> <a class="mega-link" href="#">Shoes</a></li>
-                                <li class="mega-menu-list"> <a class="mega-link" href="#">Beauty</a></li>
+                                <li class="mega-menu-list">
+                                    <a class="mega-link" href="#">
+                                        <div class="mega-link-menu-sale">
+                                            <div class="mega-link-menu-sale-text">
+                                                <h2>SUPER SALE</h2>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </li>
                             </ul>
                         </div>
                     </div>
