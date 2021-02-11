@@ -169,6 +169,8 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;}
     display: flex;
     justify-content: center;
     align-items: center;
+    padding-bottom: 8px;
+    padding-top: 8px;
   }
 }
 
@@ -320,6 +322,8 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;}
 .menu_list {
   display: inline-block;
   position: relative;
+  padding-bottom: 8px;
+  padding-top: 8px;
 }
 
 .menu_list:hover .mega-box {
@@ -451,6 +455,7 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;}
     border-left: 12px solid $color-second;
     @media (max-width: $sm) {
       margin-left: 10px;
+      height: 140px;
     }
     h1 {
       font-family: $font-family;
@@ -1137,7 +1142,20 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;}
   height: 777px;
   border: 1px solid #eaeaea;
   background-color: #f7f7f7;
-  justify-content: center;
+  justify-content: space-between;
+  align-items: center;
+  .slider-icon {
+    width: 47px;
+    height: 47px;
+    background-color: #d8d8d8;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    &:hover {
+      background-color: $color-second;
+    }
+  }
 }
 
 .product-content {
@@ -1249,6 +1267,18 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;}
   font-family: $font-family;
   font-size: 14px;
   text-transform: uppercase;
+}
+
+.check {
+  width: 144px;
+  height: 35px;
+  border: 1px solid #eaeaea;
+  background-color: #ffffff;
+  color: #bcbcbc;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 24px;
+  margin-top: 16px;
 }
 
 .product-content-block-filter-size h2 {
@@ -1405,7 +1435,7 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;}
   border: 1px solid #eaeaea;
   color: #4a4a4a;
   font-family: $font-family;
-  font-size: 10px;
+  font-size: 14px;
   text-transform: uppercase;
   align-content: center;
   display: flex;
@@ -1438,7 +1468,7 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;}
     border: 1px solid #eaeaea;
     color: #4a4a4a;
     font-family: $font-family;
-    font-size: 7px;
+    font-size: 11px;
     text-transform: uppercase;
     align-content: center;
     display: flex;
@@ -1469,7 +1499,7 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;}
     border: 1px solid #eaeaea;
     color: #4a4a4a;
     font-family: $font-family;
-    font-size: 7px;
+    font-size: 11px;
     text-transform: uppercase;
     align-content: center;
     display: flex;
@@ -1517,6 +1547,9 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;}
     margin-top: 30px;
     margin-left: 30px;
     margin-right: 30px;
+    &:hover {
+      background-color: #5e5e5e;
+    }
     h2 {
       color: #ffffff;
       font-family: $font-family;

@@ -2,14 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="77e36ef2-3b62-42c1-a2f3-86e199a5ac88" name="Default Changelist" comment="ver 1.3b Correct menu-list-last:hover element">
-      <change afterPath="$PROJECT_DIR$/img/product/01.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/product/02.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/product/03.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/product/04.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cart.html" beforeDir="false" afterPath="$PROJECT_DIR$/cart.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkout.html" beforeDir="false" afterPath="$PROJECT_DIR$/checkout.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/product.html" beforeDir="false" afterPath="$PROJECT_DIR$/product.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/products.html" beforeDir="false" afterPath="$PROJECT_DIR$/products.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/styles/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/styles.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/styles/styles.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/styles/styles.css.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/styles/styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/styles/styles.scss" afterDir="false" />
@@ -52,6 +50,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="SCSS" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -88,7 +87,11 @@
       <workItem from="1612690921556" duration="7164000" />
       <workItem from="1612747019311" duration="2225000" />
       <workItem from="1612750090767" duration="54000" />
-      <workItem from="1612750961672" duration="8669000" />
+      <workItem from="1612750961672" duration="9539000" />
+      <workItem from="1612855966534" duration="19000" />
+      <workItem from="1613012609665" duration="2296000" />
+      <workItem from="1613016275107" duration="1445000" />
+      <workItem from="1613017853861" duration="15000" />
     </task>
     <task id="LOCAL-00001" summary="ver 1.0b Add SASS preprocessor. Modify shop cart page.">
       <created>1611727690231</created>
